@@ -1,11 +1,11 @@
-# Deno
-# https://deno.com/
+# macOS
+.DS_Store
 
-# Cache directory (when using project-local DENO_DIR)
-# https://docs.deno.com/runtime/fundamentals/setup/#deno_dir
-.deno/
+# Materiały spoza strony (instrukcja, raport)
+*.pdf
+RAPORT.md
 
-# Coverage reports
-# https://docs.deno.com/runtime/reference/cli/coverage/
-coverage/
-*.lcov
+# Edytory / narzędzia
+.idea/
+.vscode/
+.claude/

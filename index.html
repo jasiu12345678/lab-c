@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mateusz Rembas (55555) - AI LAB C</title>
+    <link rel="stylesheet" href="leaflet-1.9.4/leaflet.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="leaflet-1.9.4/leaflet-src.js"></script>
+    <script src="leaflet-1.9.4/leaflet-providers.js"></script>
+    <script src="leaflet-1.9.4/leaflet-image.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <section>
+        <div>
+            <div id="map"></div>
+            <button id="getLocation">Moja lokalizacja</button>
+            <button id="saveButton">Pobierz mapę</button>
+            <span id="latitude"></span> <span id="longitude"></span>
+        </div>
+        <canvas id="rasterMap" width="600" height="300"></canvas>
+    </section>
+
+    <section>
+        <div id="table"></div>
+        <div id="board"></div>
+    </section>
+</body>
+</html>
